@@ -126,6 +126,11 @@ function qwe()
    Players[0]:accelerate(0, 0, 0.1)
 end
 
+function chip()
+   local items = Players[0].items
+   items["uplink chip"] = items["uplink chip"] + 1
+end
+
 Triggers = {}
 
 function Triggers.idle()
